@@ -1,10 +1,10 @@
-### 阅读mockito代码:
+## 阅读mockito代码:
 
-#### 相关专业化名词:
+### 相关专业化名词:
 - 假冒者：Imposter（ClassImposterizer）
 - 实例化器：instantiator
 
-###### 设置mock行为
+##### 设置mock行为
 该部分主要分为三个步骤：
 
 mock.doSome(): 为mock方法设置OngoingStubbingImpl，并存放在ThreadLocal中。
